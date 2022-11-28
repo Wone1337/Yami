@@ -1,0 +1,179 @@
+
+/* h1{
+    
+    color:red;
+}
+
+
+
+p{
+
+color: orange;
+}
+
+li{
+
+    list-style-type:none;
+    color: dodgerblue;
+    font-weight: bold;
+изменение маркеров в css, в данном случае он их убирает 
+}
+
+.el{
+
+    color:orange;
+    font-weight: bold;
+     добавление класса  
+}
+
+p em {
+    color: rebeccapurple;
+     выбор нужного элемента через где находится то , что я хочу выделить 
+  }
+
+  h1 + p {
+    font-size: 200%;
+
+     объединение 2 элементов ,чтобы дать им значение которое нужно указать в css, в данном примере объединение заголовка и последующего абзаца,
+    а не всех абзацев. 
+  }
+
+  a:link {
+    color: pink;
+     здесь добавляется зеленый цвет к самой ссылке 
+  }
+  
+  a:visited {
+    color: green;
+     здесь добавляется ссылка , когда вы уже посетили сайт; 
+  }
+
+  a:hover {
+    text-decoration: none;
+     здесь же у ссылки убирается нижнее подчеркивание, когда пользователь наводит на нее курсор
+  }
+
+  a{
+    font-weight: bold;
+  }
+
+
+  body h1 + p .el {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    Это будет стиль любого элемента с классом special, который находится внутри <p>, который приходит сразу после <h1>, который находится внутри <body> 
+  }
+
+
+body{
+
+background: url(firefox/seva2.jpg);
+background-size: 50%;
+background-repeat: no-repeat;
+background-size:100% 700px ;
+}
+
+h3{
+
+  color:violet
+}
+
+span{
+
+  color:red;
+}
+
+
+
+ */
+
+
+
+/*  p{
+font-size: 30px;
+width: 60px;
+background-color: blueviolet;
+color:aquamarine;
+border: 12px solid yellowgreen;
+
+ }
+
+ body {
+  background-color: pink;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+  При добавлении  @media  , если условие в скобках выполняется цвет фона из розового превращается в синий
+}
+
+
+/* 
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  color:hotpink;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 10px dotted purple;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.job-title {
+  color: #999999;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: #fb6542;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+  
+}
+
+ul{
+  border: 5px solid purple;
+  background-color: #eeeeee;
+  padding: auto;
+} */
+
+@media (min-width: 1px) {
+  body {
+    background-image: url(spisok.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100% 700px ;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url(stepa228.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100% 700px ;
+  }
+}
+
+
+@media (min-width: 1230px) {
+  body {
+    background-image: url(seva2.jpg) ;
+    background-repeat: no-repeat;
+    background-size:100% 700px ;
+  }
+}
